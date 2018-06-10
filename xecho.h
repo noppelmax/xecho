@@ -44,6 +44,10 @@ typedef struct /*_CFG_ARGS*/ {
 	char* debug_color;
 	char* font_name;
 	char* window_name;
+	int startX;
+	int startY;
+	int width;
+	int height;
 } CFG;
 
 typedef struct /*_XDATA*/ {

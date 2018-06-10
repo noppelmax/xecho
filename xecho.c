@@ -58,7 +58,11 @@ int main(int argc, char** argv){
 		.bg_color = NULL,
 		.debug_color = NULL,
 		.font_name = NULL,
-		.window_name = NULL
+		.window_name = NULL,
+		.startX = 0,
+		.startY = 0,
+		.width = 100,
+		.height = 100
 	};
 
 	XRESOURCES xres = {
